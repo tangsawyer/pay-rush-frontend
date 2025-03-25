@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -304,6 +304,5 @@
     "@vitejs/plugin-react": "^4.0.0",
     "@firebase/app": "^0.11.1"
   },
-  
   "nodeLinker": "pnpm"
 }
