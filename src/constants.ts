@@ -14,14 +14,9 @@ export const mode = (import.meta as unknown as WithEnvMode).env.MODE;
 declare const __APP_ID__: string;
 export const APP_ID = __APP_ID__;
 
-declare const __API_PATH__: string;
-export const API_PATH = __API_PATH__;
-
-declare const __API_URL__: string;
-export const API_URL = __API_URL__;
-
-declare const __WS_API_URL__: string;
-export const WS_API_URL = __WS_API_URL__;
+export const API_PATH = "/routes"; // Basé sur vos routes API
+export const API_URL = "https://giant-hoops-wave.loca.lt";
+export const WS_API_URL = ""; // Ajoutez l'URL WebSocket si nécessaire
 
 declare const __APP_BASE_PATH__: string;
 export const APP_BASE_PATH = __APP_BASE_PATH__;
