@@ -1,6 +1,9 @@
 {
   "version": 2,
-  "buildCommand": "CI=false npm run build",
+  "buildCommand": "vite build --mode development",
   "installCommand": "npm install --legacy-peer-deps",
-  "framework": "vite"
+  "framework": "vite",
+  "env": {
+    "NODE_ENV": "development"
+  }
 }
